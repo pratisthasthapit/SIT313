@@ -88,7 +88,7 @@
                             <constraint id="1630" firstItem="200" firstAttribute="top" secondItem="199" secondAttribute="top"/>
                         </constraints>
                     </view>
-                    <navigationItem title="Title" id="2044" key="navigationItem"/>
+                    <navigationItem title="Seasons" id="2044" key="navigationItem"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -96,7 +96,7 @@
         </scene>
         <scene sceneID="1660">
             <objects>
-                <viewController id="1661" sceneMemberID="viewController">
+                <viewController id="1661" sceneMemberID="viewController" customClass="SummerViewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="1658"/>
                         <viewControllerLayoutGuide type="bottom" id="1659"/>
@@ -106,18 +106,24 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="3181" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
-                                <rect key="frame" x="0.0" y="35" width="821" height="632"/>
-                                <autoresizingMask key="autoresizingMask" heightSizable="YES" widthSizable="YES" flexibleMaxX="YES"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="3181" translatesAutoresizingMaskIntoConstraints="NO" ambiguous="YES">
+                                <rect key="frame" x="0.0" y="35" width="821" height="777"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="3690" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" image="Drawable/summerbg.png">
-                                        <rect key="frame" x="0.0" y="1" width="823" height="597"/>
-                                        <autoresizingMask key="autoresizingMask" heightSizable="YES" widthSizable="YES" flexibleMaxX="YES"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="3690" translatesAutoresizingMaskIntoConstraints="NO" image="Drawable/summerbg.png" misplaced="YES" ambiguous="YES">
+                                        <rect key="frame" x="0.0" y="1" width="823" height="742"/>
                                     </imageView>
                                 </subviews>
+                                <constraints>
+                                    <constraint id="13240" firstItem="3690" firstAttribute="leading" secondItem="3181" secondAttribute="leading"/>
+                                </constraints>
                             </scrollView>
                         </subviews>
                     </view>
+                    <connections>
+                        <outlet property="SummerView" destination="1662" id="name-outlet-1662"/>
+                        <outlet property="SummerScrollView" destination="3181" id="name-outlet-3181"/>
+                        <outlet property="SummerImageView" destination="3690" id="name-outlet-3690"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1663" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -140,7 +146,7 @@
         </scene>
         <scene sceneID="5239">
             <objects>
-                <viewController id="5240" sceneMemberID="viewController">
+                <viewController id="5240" sceneMemberID="viewController" customClass="SpringViewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="5237"/>
                         <viewControllerLayoutGuide type="bottom" id="5238"/>
@@ -150,18 +156,24 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="5758" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="5758" translatesAutoresizingMaskIntoConstraints="NO" ambiguous="YES">
                                 <rect key="frame" x="0.0" y="70" width="832" height="599"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="5759" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" image="Drawable/springbg.png">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="5759" translatesAutoresizingMaskIntoConstraints="NO" image="Drawable/springbg.png" misplaced="YES" ambiguous="YES">
                                         <rect key="frame" x="0.0" y="2" width="740" height="596"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                 </subviews>
+                                <constraints>
+                                    <constraint id="13540" firstItem="5759" firstAttribute="leading" secondItem="5758" secondAttribute="leading"/>
+                                </constraints>
                             </scrollView>
                         </subviews>
                     </view>
+                    <connections>
+                        <outlet property="SpringView" destination="5241" id="name-outlet-5241"/>
+                        <outlet property="SpringScrollView" destination="5758" id="name-outlet-5758"/>
+                        <outlet property="SpringImageView" destination="5759" id="name-outlet-5759"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5242" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -169,7 +181,7 @@
         </scene>
         <scene sceneID="5762">
             <objects>
-                <viewController id="5763" sceneMemberID="viewController">
+                <viewController id="5763" sceneMemberID="viewController" customClass="WinterViewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="5760"/>
                         <viewControllerLayoutGuide type="bottom" id="5761"/>
@@ -179,25 +191,24 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <subviews>
-                            <view contentMode="scaleToFill" id="6045" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
-                                <rect key="frame" x="0.0" y="70" width="846" height="597"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="6046" translatesAutoresizingMaskIntoConstraints="NO" ambiguous="YES">
+                                <rect key="frame" x="0.0" y="0.0" width="845" height="598"/>
                                 <subviews>
-                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="6046" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
-                                        <rect key="frame" x="0.0" y="-1" width="845" height="598"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="6047" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" image="Drawable/winterbg.png">
-                                                <rect key="frame" x="0.0" y="0.0" width="837" height="598"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            </imageView>
-                                        </subviews>
-                                    </scrollView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="6047" translatesAutoresizingMaskIntoConstraints="NO" image="Drawable/winterbg.png" misplaced="YES" ambiguous="YES">
+                                        <rect key="frame" x="0.0" y="0.0" width="837" height="598"/>
+                                    </imageView>
                                 </subviews>
-                            </view>
+                                <constraints>
+                                    <constraint id="12945" firstItem="6047" firstAttribute="leading" secondItem="6046" secondAttribute="leading"/>
+                                </constraints>
+                            </scrollView>
                         </subviews>
                     </view>
+                    <connections>
+                        <outlet property="WinterView" destination="5764" id="name-outlet-5764"/>
+                        <outlet property="WinterScrollView" destination="6046" id="name-outlet-6046"/>
+                        <outlet property="WinterImageView" destination="6047" id="name-outlet-6047"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5765" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -205,7 +216,7 @@
         </scene>
         <scene sceneID="6320">
             <objects>
-                <viewController id="6321" sceneMemberID="viewController">
+                <viewController id="6321" sceneMemberID="viewController" customClass="AutumnViewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="6318"/>
                         <viewControllerLayoutGuide type="bottom" id="6319"/>
@@ -215,25 +226,25 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <subviews>
-                            <view contentMode="scaleToFill" id="6423" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
-                                <rect key="frame" x="0.0" y="70" width="817" height="597"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="6424" translatesAutoresizingMaskIntoConstraints="NO" ambiguous="YES">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <subviews>
-                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="6424" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
-                                        <rect key="frame" x="0.0" y="0.0" width="809" height="597"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="6425" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" image="Drawable/autumnbg.png">
-                                                <rect key="frame" x="0.0" y="0.0" width="814" height="597"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            </imageView>
-                                        </subviews>
-                                    </scrollView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="6425" translatesAutoresizingMaskIntoConstraints="NO" image="Drawable/autumnbg.png" misplaced="YES" adjustsImageSizeForAccessibilityContentSizeCategory="YES" ambiguous="YES">
+                                        <rect key="frame" x="0.0" y="0.0" width="814" height="667"/>
+                                    </imageView>
                                 </subviews>
-                            </view>
+                                <edgeInsets key="layoutMargins" top="0" left="0" bottom="0" right="0"/>
+                                <constraints>
+                                    <constraint id="10102" firstItem="6425" firstAttribute="leading" secondItem="6424" secondAttribute="leading"/>
+                                </constraints>
+                            </scrollView>
                         </subviews>
                     </view>
+                    <connections>
+                        <outlet property="AutumnView" destination="6322" id="name-outlet-6322"/>
+                        <outlet property="AutumnScrollView" destination="6424" id="name-outlet-6424"/>
+                        <outlet property="AutumnImageView" destination="6425" id="name-outlet-6425"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6323" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
