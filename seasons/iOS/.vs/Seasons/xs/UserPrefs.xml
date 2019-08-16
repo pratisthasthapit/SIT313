@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{9BB7F79D-AB3B-4E6F-AFA8-A866876BC078}|Default">
+  <MonoDevelop.Ide.ItemProperties.Seasons PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.6D91DBEE-DF81-492A-A663-DC2759611257" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Seasons/Main.storyboard">
+    <Files>
+      <File FileName="Seasons/Main.storyboard" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Seasons" expanded="True">
+            <Node name="Seasons" expanded="True">
+              <Node name="References" expanded="True" />
+              <Node name="Packages" expanded="True" />
+              <Node name="Resources" expanded="True" />
+              <Node name="Main.storyboard" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
