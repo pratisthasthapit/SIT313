@@ -1,22 +1,25 @@
 ﻿<Properties StartupConfiguration="{9BB7F79D-AB3B-4E6F-AFA8-A866876BC078}|Default">
-  <MonoDevelop.Ide.ItemProperties.Seasons PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.CE468DE9-D884-4F2B-B7FD-FDDC4B24F092" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Seasons/Main.storyboard">
+  <MonoDevelop.Ide.ItemProperties.Seasons automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.CE468DE9-D884-4F2B-B7FD-FDDC4B24F092" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Seasons/SpringViewController.cs">
     <Files>
-      <File FileName="Seasons/AutumnViewController.cs" Line="30" Column="16" />
+      <File FileName="Seasons/AutumnViewController.cs" Line="23" Column="71" />
       <File FileName="Seasons/WinterViewController.cs" />
-      <File FileName="Seasons/MainViewController.cs" />
       <File FileName="Seasons/Main.storyboard" />
+      <File FileName="Seasons/MainViewController.cs" />
+      <File FileName="Seasons/SummerViewController.cs" />
+      <File FileName="Seasons/MainViewController.designer.cs" />
+      <File FileName="Seasons/SpringViewController.cs" Line="24" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Seasons" expanded="True">
             <Node name="Seasons" expanded="True">
-              <Node name="Resources" expanded="True">
-                <Node name="Drawable" expanded="True" />
-                <Node name="Sound" expanded="True" />
-              </Node>
-              <Node name="Main.storyboard" selected="True" />
+              <Node name="Resources" expanded="True" />
+              <Node name="AutumnViewController.cs" expanded="True" />
+              <Node name="MainViewController.cs" expanded="True" />
+              <Node name="SpringViewController.cs" selected="True" />
+              <Node name="SummerViewController.cs" expanded="True" />
               <Node name="ViewController.cs" expanded="True" />
             </Node>
           </Node>

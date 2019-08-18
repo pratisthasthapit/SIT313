@@ -17,10 +17,8 @@ namespace Seasons
         {
             base.ViewDidLoad();
 
-            WinterScrollView = new UIScrollView(new CGRect(0, 65, View.Frame.Width, View.Frame.Height));
-            View.AddSubview(WinterScrollView);
+            WinterScrollView.ContentSize = new CoreGraphics.CGSize(WinterView.Frame.Width + 1000, WinterView.Frame.Height - 10);
             WinterScrollView.ContentSize = WinterImageView.Image.Size;
-            WinterScrollView.AddSubview(WinterImageView);
         }
 
         public override void DidReceiveMemoryWarning()

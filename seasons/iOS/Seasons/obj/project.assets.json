@@ -210,11 +210,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/pratisthasthapit/Documents/GitHub/SIT313/seasons/iOS/Seasons/Seasons.csproj",
+      "projectUniqueName": "/Users/pratisthasthapit/Downloads/SIT313-master 2/seasons/iOS/Seasons/Seasons.csproj",
       "projectName": "Seasons",
-      "projectPath": "/Users/pratisthasthapit/Documents/GitHub/SIT313/seasons/iOS/Seasons/Seasons.csproj",
+      "projectPath": "/Users/pratisthasthapit/Downloads/SIT313-master 2/seasons/iOS/Seasons/Seasons.csproj",
       "packagesPath": "/Users/pratisthasthapit/.nuget/packages/",
-      "outputPath": "/Users/pratisthasthapit/Documents/GitHub/SIT313/seasons/iOS/Seasons/obj/",
+      "outputPath": "/Users/pratisthasthapit/Downloads/SIT313-master 2/seasons/iOS/Seasons/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [

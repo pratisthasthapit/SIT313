@@ -42,6 +42,10 @@ namespace Seasons
         [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UIButton ScareCrowBtn { get; set; }
 
+        [Action ("ScareCrow_TouchUpInside:")]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        partial void ScareCrow_TouchUpInside (UIKit.UIButton sender);
+
         void ReleaseDesignerOutlets ()
         {
             if (AutumnImageView != null) {

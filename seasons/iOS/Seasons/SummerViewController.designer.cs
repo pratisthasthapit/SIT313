@@ -22,10 +22,6 @@ namespace Seasons
         [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UIScrollView SummerScrollView { get; set; }
 
-        [Outlet]
-        [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UIView SummerView { get; set; }
-
         void ReleaseDesignerOutlets ()
         {
             if (SummerImageView != null) {
@@ -36,11 +32,6 @@ namespace Seasons
             if (SummerScrollView != null) {
                 SummerScrollView.Dispose ();
                 SummerScrollView = null;
-            }
-
-            if (SummerView != null) {
-                SummerView.Dispose ();
-                SummerView = null;
             }
         }
     }

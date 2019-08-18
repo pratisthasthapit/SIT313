@@ -107,28 +107,26 @@
                         <viewControllerLayoutGuide type="top" id="1658"/>
                         <viewControllerLayoutGuide type="bottom" id="1659"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="1662">
+                    <view key="view" contentMode="scaleToFill" id="28042">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="3181" translatesAutoresizingMaskIntoConstraints="NO" ambiguous="YES">
-                                <rect key="frame" x="0.0" y="35" width="821" height="777"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="28043" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="3690" translatesAutoresizingMaskIntoConstraints="NO" image="Drawable/summerbg.png" misplaced="YES" ambiguous="YES">
-                                        <rect key="frame" x="0.0" y="1" width="823" height="742"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="28045" translatesAutoresizingMaskIntoConstraints="NO" image="Drawable/summerimg.png" fixedFrame="YES">
+                                        <rect key="frame" x="0.0" y="0.0" width="837" height="598"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                 </subviews>
-                                <constraints>
-                                    <constraint id="13240" firstItem="3690" firstAttribute="leading" secondItem="3181" secondAttribute="leading"/>
-                                </constraints>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </scrollView>
                         </subviews>
                     </view>
                     <connections>
-                        <outlet property="SummerView" destination="1662" id="name-outlet-1662"/>
-                        <outlet property="SummerScrollView" destination="3181" id="name-outlet-3181"/>
-                        <outlet property="SummerImageView" destination="3690" id="name-outlet-3690"/>
+                        <outlet property="SummerScrollView" destination="28043" id="name-outlet-28043"/>
+                        <outlet property="SummerImageView" destination="28045" id="name-outlet-28045"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1663" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -157,28 +155,34 @@
                         <viewControllerLayoutGuide type="top" id="5237"/>
                         <viewControllerLayoutGuide type="bottom" id="5238"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="5241">
+                    <view key="view" contentMode="scaleToFill" id="23855">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="5758" translatesAutoresizingMaskIntoConstraints="NO" ambiguous="YES">
-                                <rect key="frame" x="0.0" y="70" width="832" height="599"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="23856" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="5759" translatesAutoresizingMaskIntoConstraints="NO" image="Drawable/springbg.png" misplaced="YES" ambiguous="YES">
-                                        <rect key="frame" x="0.0" y="2" width="740" height="596"/>
-                                    </imageView>
+                                    <view key="view" contentMode="scaleToFill" id="23857" fixedFrame="YES">
+                                        <rect key="frame" x="-171" y="0.0" width="867" height="667"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="23858" translatesAutoresizingMaskIntoConstraints="NO" image="Drawable/springimg.png" fixedFrame="YES">
+                                                <rect key="frame" x="0.0" y="0.0" width="837" height="598"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                        </subviews>
+                                    </view>
                                 </subviews>
-                                <constraints>
-                                    <constraint id="13540" firstItem="5759" firstAttribute="leading" secondItem="5758" secondAttribute="leading"/>
-                                </constraints>
                             </scrollView>
                         </subviews>
                     </view>
                     <connections>
-                        <outlet property="SpringView" destination="5241" id="name-outlet-5241"/>
-                        <outlet property="SpringScrollView" destination="5758" id="name-outlet-5758"/>
-                        <outlet property="SpringImageView" destination="5759" id="name-outlet-5759"/>
+                        <outlet property="SpringImageView" destination="23858" id="name-outlet-23858"/>
+                        <outlet property="SpringView" destination="23857" id="name-outlet-23857"/>
+                        <outlet property="SpringScrollView" destination="23856" id="name-outlet-23856"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5242" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -206,20 +210,10 @@
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="16225" translatesAutoresizingMaskIntoConstraints="NO" image="Drawable/winterbg.png" fixedFrame="YES">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="16225" translatesAutoresizingMaskIntoConstraints="NO" image="Drawable/winterimg.png" fixedFrame="YES">
                                                 <rect key="frame" x="0.0" y="0.0" width="837" height="598"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="15927" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
-                                                <rect key="frame" x="46" y="481" width="46" height="30"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="Button"/>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="16224" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
-                                                <rect key="frame" x="381" y="493" width="46" height="30"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="Button"/>
-                                            </button>
                                         </subviews>
                                     </view>
                                 </subviews>
@@ -268,6 +262,9 @@
                                                 <rect key="frame" x="661" y="127" width="140" height="316"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" backgroundImage="Drawable/scarecrow.png"/>
+                                                <connections>
+                                                    <action selector="ScareCrow_TouchUpInside:" destination="6321" id="26807" eventType="touchUpInside"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="17106" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
                                                 <rect key="frame" x="1005" y="413" width="183" height="244"/>
@@ -308,13 +305,13 @@
         <image name="Drawable/summer.png" width="1112" height="1157"/>
         <image name="Drawable/spring.png" width="1112" height="1157"/>
         <image name="Drawable/autumn.png" width="1112" height="1157"/>
-        <image name="Drawable/springbg.png" width="1474" height="604"/>
-        <image name="Drawable/winterbg.png" width="1486" height="604"/>
-        <image name="Drawable/summerbg.png" width="1488" height="608"/>
         <image name="Drawable/autumnbg.png" width="1483" height="601"/>
         <image name="Drawable/scarecrow.png" width="340" height="340"/>
         <image name="Drawable/halloweenhouse.png" width="425" height="373"/>
         <image name="Drawable/ghost.png" width="283" height="365"/>
         <image name="Drawable/easter.png" width="2211" height="1089"/>
+        <image name="Drawable/summerimg.png" width="7083" height="2875"/>
+        <image name="Drawable/springimg.png" width="7083" height="2876"/>
+        <image name="Drawable/winterimg.png" width="7083" height="2876"/>
     </resources>
 </document>

@@ -17,23 +17,19 @@ namespace Seasons
 
         public override void ViewDidLoad()
         {
-
-
             base.ViewDidLoad();
 
-            AutumnScrollView.ContentSize = new CoreGraphics.CGSize(AutumnView.Frame.Width + 1000, AutumnView.Frame.Height - 10);         
+            AutumnScrollView.ContentSize = new CoreGraphics.CGSize(AutumnView.Frame.Width + 1000, AutumnView.Frame.Height - 10);
             AutumnScrollView.ContentSize = AutumnImageView.Image.Size;
 
-            ScareCrowBtn.TouchUpInside += (o, s) =>
-            {
-                
-               
-                //Music.Dispose();
-                url = NSUrl.FromFilename("Sound/scarecrowdesc.mp3");
-                Music = new SystemSound(url);
-                Music.PlaySystemSound();
-            };
         }
 
+        partial void ScareCrow_TouchUpInside(UIButton sender)
+        {
+            Music.Dispose();
+            url = NSUrl.FromFilename("Sound/springmusic.mp3");
+            Music = new SystemSound(url);
+            Music.PlaySystemSound();
+        }
     }
 }

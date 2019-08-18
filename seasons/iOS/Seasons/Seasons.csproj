@@ -94,9 +94,6 @@
         <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon29.png">
             <Visible>false</Visible>
         </ImageAsset>
-        <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon40.png">
-            <Visible>false</Visible>
-        </ImageAsset>
         <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon58.png">
             <Visible>false</Visible>
         </ImageAsset>
@@ -112,13 +109,13 @@
         <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon20.png">
             <Visible>false</Visible>
         </ImageAsset>
-        <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon60.png">
-            <Visible>false</Visible>
-        </ImageAsset>
         <ImageAsset Include="Assets.xcassets\SplashScreen.imageset\Contents.json" />
         <ImageAsset Include="Assets.xcassets\SplashScreen.imageset\logo.png" />
         <ImageAsset Include="Assets.xcassets\SplashScreen.imageset\logo-1.png" />
         <ImageAsset Include="Assets.xcassets\SplashScreen.imageset\logo-2.png" />
+        <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Contents.json" />
+        <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\logo.png" />
+        <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\logo-1.png" />
     </ItemGroup>
     <ItemGroup>
         <Folder Include="Resources\" />
@@ -163,7 +160,6 @@
         </Compile>
     </ItemGroup>
     <ItemGroup>
-      <BundleResource Include="Resources\Drawable\bg.png" />
       <BundleResource Include="Resources\Drawable\autumnbg.png" />
       <BundleResource Include="Resources\Drawable\springbg.png" />
       <BundleResource Include="Resources\Drawable\winterbg.png" />
@@ -173,59 +169,16 @@
       <BundleResource Include="Resources\Drawable\spring.png" />
       <BundleResource Include="Resources\Drawable\autumn.png" />
       <BundleResource Include="Resources\Drawable\scarecrow.png" />
-      <BundleResource Include="Resources\Drawable\eastereggs.png" />
       <BundleResource Include="Resources\Drawable\halloweenhouse.png" />
       <BundleResource Include="Resources\Drawable\ghost.png" />
-      <BundleResource Include="Resources\Drawable\pumpkin.png" />
-      <BundleResource Include="Resources\Drawable\trickortreat.png" />
-      <BundleResource Include="Resources\Drawable\christmastree.png" />
-      <BundleResource Include="Resources\Drawable\snowman.png" />
-      <BundleResource Include="Resources\Drawable\christmastreeone.png" />
-      <BundleResource Include="Resources\Drawable\turkey.png" />
-      <BundleResource Include="Resources\Drawable\mushroom.png" />
-      <BundleResource Include="Resources\Drawable\caterpillar.png" />
-      <BundleResource Include="Resources\Drawable\rabbit.png" />
-      <BundleResource Include="Resources\Drawable\snail.png" />
-      <BundleResource Include="Resources\Drawable\bee.png" />
-      <BundleResource Include="Resources\Drawable\rainbow.png" />
-      <BundleResource Include="Resources\Drawable\butterfly.png" />
-      <BundleResource Include="Resources\Drawable\flowers.png" />
-      <BundleResource Include="Resources\Drawable\sandcastle.png" />
-      <BundleResource Include="Resources\Drawable\beachball.png" />
-      <BundleResource Include="Resources\Drawable\shells.png" />
-      <BundleResource Include="Resources\Drawable\bikini.png" />
-      <BundleResource Include="Resources\Drawable\crab.png" />
-      <BundleResource Include="Resources\Drawable\orangefish.png" />
-      <BundleResource Include="Resources\Drawable\bluefish.png" />
-      <BundleResource Include="Resources\Drawable\seahorse.png" />
-      <BundleResource Include="Resources\Drawable\starfish.png" />
-      <BundleResource Include="Resources\Drawable\footprints.png" />
-      <BundleResource Include="Resources\Drawable\pineapple.png" />
-      <BundleResource Include="Resources\Drawable\quiz.png" />
-      <BundleResource Include="Resources\Drawable\diy.png" />
-      <BundleResource Include="Resources\Drawable\easter.png" />
-      <BundleResource Include="Resources\Sound\easterdesc.mp3" />
-      <BundleResource Include="Resources\Sound\scarecrowdesc.mp3" />
-      <BundleResource Include="Resources\Sound\leafdesc.mp3" />
-      <BundleResource Include="Resources\Sound\christmasdesc.mp3" />
-      <BundleResource Include="Resources\Sound\winterfooddesc.mp3" />
-      <BundleResource Include="Resources\Sound\sandcastledesc.mp3" />
-      <BundleResource Include="Resources\Sound\starfishdesc.mp3" />
-      <BundleResource Include="Resources\Sound\beachballdesc.mp3" />
-      <BundleResource Include="Resources\Sound\crabdesc.mp3" />
-      <BundleResource Include="Resources\Sound\swimdesc.mp3" />
-      <BundleResource Include="Resources\Sound\shelldesc.mp3" />
-      <BundleResource Include="Resources\Sound\caterpillardesc.mp3" />
-      <BundleResource Include="Resources\Sound\pineappledesc.mp3" />
-      <BundleResource Include="Resources\Sound\beedesc.mp3" />
-      <BundleResource Include="Resources\Sound\snaildesc.mp3" />
-      <BundleResource Include="Resources\Sound\mushroomdesc.mp3" />
-      <BundleResource Include="Resources\Sound\butterflydesc.mp3" />
       <BundleResource Include="Resources\Sound\summermusic.mp3" />
       <BundleResource Include="Resources\Sound\autumnmusic.mp3" />
       <BundleResource Include="Resources\Sound\wintermusic.mp3" />
-      <BundleResource Include="Resources\Sound\rainbowdesc.mp3" />
       <BundleResource Include="Resources\Sound\springmusic.mp3" />
+      <BundleResource Include="Resources\Drawable\autumnimg.png" />
+      <BundleResource Include="Resources\Drawable\summerimg.png" />
+      <BundleResource Include="Resources\Drawable\springimg.png" />
+      <BundleResource Include="Resources\Drawable\winterimg.png" />
     </ItemGroup>
     <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

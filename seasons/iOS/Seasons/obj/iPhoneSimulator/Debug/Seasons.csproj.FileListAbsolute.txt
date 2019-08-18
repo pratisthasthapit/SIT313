@@ -77,3 +77,33 @@
 /Users/pratisthasthapit/Documents/GitHub/SIT313/seasons/iOS/Seasons/obj/iPhoneSimulator/Debug/Seasons.csproj.CopyComplete
 /Users/pratisthasthapit/Documents/GitHub/SIT313/seasons/iOS/Seasons/obj/iPhoneSimulator/Debug/Seasons.exe
 /Users/pratisthasthapit/Documents/GitHub/SIT313/seasons/iOS/Seasons/obj/iPhoneSimulator/Debug/Seasons.pdb
+/Users/pratisthasthapit/Downloads/SIT313-master 2/seasons/iOS/Seasons/bin/iPhoneSimulator/Debug/Seasons.exe
+/Users/pratisthasthapit/Downloads/SIT313-master 2/seasons/iOS/Seasons/bin/iPhoneSimulator/Debug/Seasons.pdb
+/Users/pratisthasthapit/Downloads/SIT313-master 2/seasons/iOS/Seasons/bin/iPhoneSimulator/Debug/Xamarin.Essentials.dll
+/Users/pratisthasthapit/Downloads/SIT313-master 2/seasons/iOS/Seasons/bin/iPhoneSimulator/Debug/Xamarin.Essentials.pdb
+/Users/pratisthasthapit/Downloads/SIT313-master 2/seasons/iOS/Seasons/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-12.4/ibtool/_BundleResourceWithLogicalName.items
+/Users/pratisthasthapit/Downloads/SIT313-master 2/seasons/iOS/Seasons/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-12.4/actool/_PartialAppManifest.items
+/Users/pratisthasthapit/Downloads/SIT313-master 2/seasons/iOS/Seasons/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-12.4/actool/_BundleResourceWithLogicalName.items
+/Users/pratisthasthapit/Downloads/SIT313-master 2/seasons/iOS/Seasons/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-12.4/coremlc/_PartialAppManifest.items
+/Users/pratisthasthapit/Downloads/SIT313-master 2/seasons/iOS/Seasons/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-12.4/coremlc/_BundleResourceWithLogicalName.items
+/Users/pratisthasthapit/Downloads/SIT313-master 2/seasons/iOS/Seasons/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-12.4/optimized/Drawable/autumnbg.png
+/Users/pratisthasthapit/Downloads/SIT313-master 2/seasons/iOS/Seasons/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-12.4/optimized/Drawable/springbg.png
+/Users/pratisthasthapit/Downloads/SIT313-master 2/seasons/iOS/Seasons/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-12.4/optimized/Drawable/winterbg.png
+/Users/pratisthasthapit/Downloads/SIT313-master 2/seasons/iOS/Seasons/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-12.4/optimized/Drawable/summerbg.png
+/Users/pratisthasthapit/Downloads/SIT313-master 2/seasons/iOS/Seasons/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-12.4/optimized/Drawable/winter.png
+/Users/pratisthasthapit/Downloads/SIT313-master 2/seasons/iOS/Seasons/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-12.4/optimized/Drawable/summer.png
+/Users/pratisthasthapit/Downloads/SIT313-master 2/seasons/iOS/Seasons/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-12.4/optimized/Drawable/spring.png
+/Users/pratisthasthapit/Downloads/SIT313-master 2/seasons/iOS/Seasons/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-12.4/optimized/Drawable/autumn.png
+/Users/pratisthasthapit/Downloads/SIT313-master 2/seasons/iOS/Seasons/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-12.4/optimized/Drawable/scarecrow.png
+/Users/pratisthasthapit/Downloads/SIT313-master 2/seasons/iOS/Seasons/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-12.4/optimized/Drawable/halloweenhouse.png
+/Users/pratisthasthapit/Downloads/SIT313-master 2/seasons/iOS/Seasons/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-12.4/optimized/Drawable/ghost.png
+/Users/pratisthasthapit/Downloads/SIT313-master 2/seasons/iOS/Seasons/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-12.4/optimized/
+/Users/pratisthasthapit/Downloads/SIT313-master 2/seasons/iOS/Seasons/obj/iPhoneSimulator/Debug/Seasons.csprojAssemblyReference.cache
+/Users/pratisthasthapit/Downloads/SIT313-master 2/seasons/iOS/Seasons/obj/iPhoneSimulator/Debug/Seasons.csproj.CoreCompileInputs.cache
+/Users/pratisthasthapit/Downloads/SIT313-master 2/seasons/iOS/Seasons/obj/iPhoneSimulator/Debug/Seasons.csproj.CopyComplete
+/Users/pratisthasthapit/Downloads/SIT313-master 2/seasons/iOS/Seasons/obj/iPhoneSimulator/Debug/Seasons.exe
+/Users/pratisthasthapit/Downloads/SIT313-master 2/seasons/iOS/Seasons/obj/iPhoneSimulator/Debug/Seasons.pdb
+/Users/pratisthasthapit/Downloads/SIT313-master 2/seasons/iOS/Seasons/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-12.4/optimized/Drawable/autumnimg.png
+/Users/pratisthasthapit/Downloads/SIT313-master 2/seasons/iOS/Seasons/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-12.4/optimized/Drawable/summerimg.png
+/Users/pratisthasthapit/Downloads/SIT313-master 2/seasons/iOS/Seasons/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-12.4/optimized/Drawable/springimg.png
+/Users/pratisthasthapit/Downloads/SIT313-master 2/seasons/iOS/Seasons/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-12.4/optimized/Drawable/winterimg.png
