@@ -1,0 +1,112 @@
+""URLs""
+
+
+3. "Firebase database" - https://www.youtube.com/watch?v=i-gZAYBMuBs&list=PLGCjwl1RrtcTXrWuRTa59RyRmQ4OedWrt
+
+4. "Login and register using database"- https://www.youtube.com/watch?v=oi-UAwiBigQ&list=PLGCjwl1RrtcTXrWuRTa59RyRmQ4OedWrt&index=9
+
+5. "Earth" - made by myself using Sketch app - https://www.sketchapp.com
+
+6. "Trees of all season: summer including the apple on it, spring, autumn, winter" - made by myself using Sketch app - https://www.sketchapp.com
+
+7. "Background sky for all Activities" - made by myself using Sketch app - https://www.sketchapp.com
+
+8. "Background in SummerActivity" - made by myself using Sketch app - https://www.sketchapp.com
+
+9. "Sun in SummerActivity" - made by myself using Sketch app - https://www.sketchapp.com
+
+10. "Bikini in SummerActivity" - made by myself using Sketch app - https://www.sketchapp.com
+
+11. "Starfish in SummerActivity" - made by myself using Sketch app - https://www.sketchapp.com
+
+12. "Crab in imagebutton in SummerActivity" - http://pluspng.com/baby-crab-png-8617.html
+
+13. "Sand castle in imagebutton in SummerActivity" - https://gallery.yopriceville.com/Free-Clipart-Pictures/Summer-Vacation-PNG/Beach_Sand_Castle_Transparent_PNG_Image
+
+14. "Umbrella in imagebutton in SummerActivity" - https://dumielauxepices.net/sand-monster-clipart/sand-monster-clipart-sandcastle-clipart
+
+15. "Tree in SummerActivity" - https://www.pngarts.com/explore/58184
+
+16."Pineapple in imagebutton in SummerActivity" - https://www.misskatecuttables.com/products/food/freebie-of-the-day-pineapple-drink-2.php
+
+17. "Clouds in SummerActivity" - https://clipartxtras.com/categories/view/4733ed06dd1557ffa7d92c2ddbc0d30dcd30a285/cloud-clipart-with-transparent-background.html
+
+18. "Beachball in imagebutton in SummerActivity" - http://getdrawings.com/beach-ball-drawing
+
+19. "Footprint in imagebutton in SummerActivity" - http://www.clker.com/clipart-footprint-1.html
+
+20. "Orange fish in imagebutton in SummerActivity" - https://www.clipartmax.com/middle/m2K9A0d3Z5K9i8K9_fish-svg-scrapbook-cut-file-cute-clipart-files-for-fish-clip-art/
+
+21. "Seahorse in imagebutton in SummerActivity" - https://kathleenhalme.com/explore/families-clipart-seahorse/#1
+
+22. "Blue fish in imagebutton in SummerActivity" - http://ir-webdesign.cz/clipart/the-sea-baby-shower-whale.html
+
+23. "Pink shell in imagebutton in SummerActivity" - http://getdrawings.com/free-bubble-guppies-clipart#free-bubble-guppies-clipart-7.jpg
+
+24. "Purple shell in imagebutton in SummerActivity" - https://www.istockphoto.com/gb/illustrations/sea-shell?sort=mostpopular&mediatype=illustration&phrase=sea%20shell
+
+25. "Left background in WinterActivity" - https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&ved=2ahUKEwjqmbaQwLLdAhWC3lQKHe-7C2kQjxx6BAgBEAI&url=https%3A%2F%2Fclipartxtras.com%2Fcategories%2Fview%2F8c928ddee54828112d5b70bb2b081c36a84405f9%2Fsnow-on-ground-clipart.html&psig=AOvVaw0TgYEIvwNgzDXyPSsP69hP&ust=1536739736363849
+
+26. "Right background in WinterActivity"https://gallery.yopriceville.com/Free-Clipart-Pictures/Winter-PNG
+
+27. "Tree with snow in imagebutton WinterActivity": https://2018raffle.ark.land
+
+28. "Christmas tree in imagebutton WinterActivity": https://www.kisspng.com/png-santa-claus-christmas-tree-clip-art-christmas-663674/
+
+29. "Soup in imagebutton WinterActivity" - https://www.gfxmag.com/pot-of-food-emoji-vector-icon/
+
+30. "Turkey in imagebutton WinterActivity" - https://melbournechapter.net/explore/thanksgiving-turkey-clipart-png/
+
+31. "Snowman in imagebutton WinterActivity" - https://pngtree.com/so/snowman
+
+32. "Wind in AutumnActivity": https://clipartxtras.com/categories/view/86ecbff47e737571de3df7d79bc81066c046a80f/wind-clipart-transparent-background.html
+
+33. "Autumn leaf in imagebutton in AutumnActivity": https://melbournechapter.net/leaves-clipart.html
+
+34. "Trick or treat pumpkin in imagebutton in AutumnActivity": http://clubpenguin.wikia.com/wiki/Trick-or-Treat_Basket
+
+35. "Halloween house in imagebutton in AutumnActivity": https://clipartxtras.com/categories/view/6758117ea3db96bfb6e70fd772a3f65f26da7912/scary-haunted-house-clipart.html
+
+36. "Scarecrow in imagebutton in AutumnActivity": http://worldartsme.com/cute-scarecrow-clipart.html
+
+37. "Witch in imagebutton in AutumnActivity": http://www.pngmart.com/image/4286
+
+38. "Easter eggs in imagebutton in AutumnActivity" - https://www.vecteezy.com/holiday-seasonal/21743-easter-egg-vectors
+
+39. "Pumpkin in imagebutton in AutumnActivity" - http://www.allenparklibrary.org/print_entry.asp?eventID=18218
+
+40. "White ghost in imagebutton in AutumnActivity" - https://clipartxtras.com/categories/view/3fc292f9161e292df5800691804a3748bdce6c00/halloween-clipart-black-background.html
+
+41. "Acorn in AutumnActivity" - http://clipart-library.com/clipart/acorn-clip-art-30.htm
+
+42. "Rainbow in imagebutton in SpringActivity" - https://clipartxtras.com/categories/view/57faf2b4adea3025648f88f9d080a69455b7ec99/rainbow-clipart-transparent-background.html
+
+43. "Flower in imagebutton in SpringActivity" - http://www.clker.com/clipart-purple-flower-.html
+
+44. "Butterfly in imagebutton in SpringActivity" - https://pixabay.com/en/butterflies-butterfly-cartoon-comic-1817644/
+
+45. "Butterfly 2 in imagebutton in SpringActivity" - https://br.pinterest.com/pin/552957660474069527
+
+46. "Caterpillar in imagebutton in SpringActivity" - https://clipartxtras.com/categories/view/6b2e8aa0ec604f01e0d6c5216a84206121d075fd/caterpillar-clipart-transparent-background.html
+
+47. "Snail in imagebutton in SpringActivity" - https://kathleenhalme.com/explore/woodland-clipart-snail/
+
+48. "Mushroom in imagebutton in SpringActivity" - http://www.pngonly.com/mushroom-png/
+
+49. "Grass and stone in imagebutton in SpringActivity" - https://gallery.yopriceville.com/Free-Clipart-Pictures/Grass-Grounds-Coverings-PNG-Clipart/Grass_and_Stones_Transparent_PNG_Clipart#.W5iXuS2B1PM
+
+50. "Grass in imagebutton in SpringActivity" - https://clipart.info/grass-png-cartoon-8053 
+
+51. "Bee  in imagebutton in SpringActivity" - http://mariafresa.net/single/2447745.html
+
+52. "Rabbit in imagebutton in SpringActivity"- https://carwad.net/angel-bunny-cliparts
+
+53. "Carrot in imagebutton in SpringActivity"- https://openclipart.org/tags/carrot
+
+
+
+
+
+
+
+
