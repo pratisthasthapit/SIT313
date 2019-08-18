@@ -16,7 +16,7 @@ namespace Seasons
             base.ViewDidLoad();
             // Perform any additional setup after loading the view, typically from a nib.
 
-            SummerScrollView = new UIScrollView(new CGRect(0, 0, View.Frame.Width, View.Frame.Height));
+            SummerScrollView = new UIScrollView(new CGRect(0, 65, View.Frame.Width, View.Frame.Height));
             View.AddSubview(SummerScrollView);
             SummerScrollView.ContentSize = SummerImageView.Image.Size;
             SummerScrollView.AddSubview(SummerImageView);

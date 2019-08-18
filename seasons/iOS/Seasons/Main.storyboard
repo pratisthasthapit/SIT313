@@ -191,23 +191,39 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="6046" translatesAutoresizingMaskIntoConstraints="NO" ambiguous="YES">
-                                <rect key="frame" x="0.0" y="0.0" width="845" height="598"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="6046" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="6047" translatesAutoresizingMaskIntoConstraints="NO" image="Drawable/winterbg.png" misplaced="YES" ambiguous="YES">
-                                        <rect key="frame" x="0.0" y="0.0" width="837" height="598"/>
-                                    </imageView>
+                                    <view key="view" contentMode="scaleToFill" id="15924" fixedFrame="YES">
+                                        <rect key="frame" x="-171" y="0.0" width="867" height="667"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="16225" translatesAutoresizingMaskIntoConstraints="NO" image="Drawable/winterbg.png" fixedFrame="YES">
+                                                <rect key="frame" x="0.0" y="0.0" width="837" height="598"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="15927" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                                <rect key="frame" x="46" y="481" width="46" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="16224" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                                <rect key="frame" x="381" y="493" width="46" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                        </subviews>
+                                    </view>
                                 </subviews>
-                                <constraints>
-                                    <constraint id="12945" firstItem="6047" firstAttribute="leading" secondItem="6046" secondAttribute="leading"/>
-                                </constraints>
                             </scrollView>
                         </subviews>
                     </view>
                     <connections>
                         <outlet property="WinterView" destination="5764" id="name-outlet-5764"/>
                         <outlet property="WinterScrollView" destination="6046" id="name-outlet-6046"/>
-                        <outlet property="WinterImageView" destination="6047" id="name-outlet-6047"/>
+                        <outlet property="WinterImageView" destination="16225" id="name-outlet-16225"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5765" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -223,27 +239,57 @@
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="6322">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <autoresizingMask key="autoresizingMask" heightSizable="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinX="YES" flexibleMaxY="YES" flexibleMinY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="6424" translatesAutoresizingMaskIntoConstraints="NO" ambiguous="YES">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="16522" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" bounces="NO" bouncesZoom="NO">
+                                <rect key="frame" x="0.0" y="70" width="375" height="597"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="6425" translatesAutoresizingMaskIntoConstraints="NO" image="Drawable/autumnbg.png" misplaced="YES" adjustsImageSizeForAccessibilityContentSizeCategory="YES" ambiguous="YES">
-                                        <rect key="frame" x="0.0" y="0.0" width="814" height="667"/>
-                                    </imageView>
+                                    <view key="view" contentMode="scaleToFill" id="16523">
+                                        <rect key="frame" x="-2" y="-1" width="791" height="599"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="19941" translatesAutoresizingMaskIntoConstraints="NO" image="Drawable/autumnbg.png" misplaced="YES" ambiguous="YES">
+                                                <rect key="frame" x="0.0" y="0.0" width="830" height="599"/>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="17104" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                                <rect key="frame" x="457" y="440" width="181" height="123"/>
+                                                <state key="normal" backgroundImage="Drawable/easter.png"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="17105" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                                <rect key="frame" x="661" y="127" width="140" height="316"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" backgroundImage="Drawable/scarecrow.png"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="17106" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                                <rect key="frame" x="1005" y="413" width="183" height="244"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" backgroundImage="Drawable/ghost.png"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="17107" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                                <rect key="frame" x="1000" y="85" width="466" height="300"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" backgroundImage="Drawable/halloweenhouse.png"/>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint id="20543" firstItem="19941" firstAttribute="leading" secondItem="16523" secondAttribute="leading"/>
+                                        </constraints>
+                                    </view>
                                 </subviews>
-                                <edgeInsets key="layoutMargins" top="0" left="0" bottom="0" right="0"/>
-                                <constraints>
-                                    <constraint id="10102" firstItem="6425" firstAttribute="leading" secondItem="6424" secondAttribute="leading"/>
-                                </constraints>
                             </scrollView>
                         </subviews>
                     </view>
                     <connections>
-                        <outlet property="AutumnView" destination="6322" id="name-outlet-6322"/>
-                        <outlet property="AutumnScrollView" destination="6424" id="name-outlet-6424"/>
-                        <outlet property="AutumnImageView" destination="6425" id="name-outlet-6425"/>
+                        <outlet property="AutumnScrollView" destination="16522" id="name-outlet-16522"/>
+                        <outlet property="AutumnView" destination="16523" id="name-outlet-16523"/>
+                        <outlet property="EasterBtn" destination="17104" id="name-outlet-17104"/>
+                        <outlet property="ScareCrowBtn" destination="17105" id="name-outlet-17105"/>
+                        <outlet property="HauntedHouseBtn" destination="17107" id="name-outlet-17107"/>
+                        <outlet property="GhostBtn" destination="17106" id="name-outlet-17106"/>
+                        <outlet property="AutumnImageView" destination="19941" id="name-outlet-19941"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6323" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -256,9 +302,13 @@
         <image name="Drawable/summer.png" width="1112" height="1157"/>
         <image name="Drawable/spring.png" width="1112" height="1157"/>
         <image name="Drawable/autumn.png" width="1112" height="1157"/>
-        <image name="Drawable/autumnbg.png" width="1483" height="601"/>
         <image name="Drawable/springbg.png" width="1474" height="604"/>
         <image name="Drawable/winterbg.png" width="1486" height="604"/>
         <image name="Drawable/summerbg.png" width="1488" height="608"/>
+        <image name="Drawable/autumnbg.png" width="1483" height="601"/>
+        <image name="Drawable/scarecrow.png" width="340" height="340"/>
+        <image name="Drawable/halloweenhouse.png" width="425" height="373"/>
+        <image name="Drawable/ghost.png" width="283" height="365"/>
+        <image name="Drawable/easter.png" width="2211" height="1089"/>
     </resources>
 </document>

@@ -26,6 +26,22 @@ namespace Seasons
         [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UIView AutumnView { get; set; }
 
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIButton EasterBtn { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIButton GhostBtn { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIButton HauntedHouseBtn { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIButton ScareCrowBtn { get; set; }
+
         void ReleaseDesignerOutlets ()
         {
             if (AutumnImageView != null) {
@@ -41,6 +57,26 @@ namespace Seasons
             if (AutumnView != null) {
                 AutumnView.Dispose ();
                 AutumnView = null;
+            }
+
+            if (EasterBtn != null) {
+                EasterBtn.Dispose ();
+                EasterBtn = null;
+            }
+
+            if (GhostBtn != null) {
+                GhostBtn.Dispose ();
+                GhostBtn = null;
+            }
+
+            if (HauntedHouseBtn != null) {
+                HauntedHouseBtn.Dispose ();
+                HauntedHouseBtn = null;
+            }
+
+            if (ScareCrowBtn != null) {
+                ScareCrowBtn.Dispose ();
+                ScareCrowBtn = null;
             }
         }
     }

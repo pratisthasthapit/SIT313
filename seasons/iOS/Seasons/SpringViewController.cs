@@ -16,7 +16,7 @@ namespace Seasons
             base.ViewDidLoad();
             // Perform any additional setup after loading the view, typically from a nib.
 
-            SpringScrollView = new UIScrollView(new CGRect(0, 0, View.Frame.Width, View.Frame.Height));
+            SpringScrollView = new UIScrollView(new CGRect(0, 65, View.Frame.Width, View.Frame.Height));
             View.AddSubview(SpringScrollView);
             SpringScrollView.ContentSize = SpringImageView.Image.Size;
             SpringScrollView.AddSubview(SpringImageView);

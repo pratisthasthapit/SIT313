@@ -2,17 +2,20 @@
   <MonoDevelop.Ide.ItemProperties.Seasons PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.CE468DE9-D884-4F2B-B7FD-FDDC4B24F092" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Seasons/Main.storyboard">
     <Files>
-      <File FileName="Seasons/Main.storyboard" />
-      <File FileName="Seasons/AutumnViewController.cs" />
+      <File FileName="Seasons/AutumnViewController.cs" Line="37" Column="2" />
+      <File FileName="Seasons/WinterViewController.cs" />
+      <File FileName="Seasons/SummerViewController.cs" />
       <File FileName="Seasons/SpringViewController.cs" />
-      <File FileName="Seasons/Main.cs" />
+      <File FileName="Seasons/Main.storyboard" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Seasons" expanded="True">
             <Node name="Seasons" expanded="True">
-              <Node name="Resources" expanded="True" />
+              <Node name="Resources" expanded="True">
+                <Node name="Drawable" expanded="True" />
+              </Node>
               <Node name="Main.storyboard" selected="True" />
               <Node name="ViewController.cs" expanded="True" />
             </Node>
