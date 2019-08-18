@@ -2,11 +2,13 @@ using Foundation;
 using System;
 using UIKit;
 using CoreGraphics;
+using AudioToolbox;
 
 namespace Seasons
 {
     public partial class WinterViewController : UIViewController
     {
+        
         public WinterViewController (IntPtr handle) : base (handle)
         {
         }
@@ -14,7 +16,6 @@ namespace Seasons
         public override void ViewDidLoad()
         {
             base.ViewDidLoad();
-            // Perform any additional setup after loading the view, typically from a nib.
 
             WinterScrollView = new UIScrollView(new CGRect(0, 65, View.Frame.Width, View.Frame.Height));
             View.AddSubview(WinterScrollView);

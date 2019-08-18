@@ -22,10 +22,6 @@
 /Users/pratisthasthapit/Downloads/SIT313-master/seasons/iOS/Seasons/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-12.4/optimized/Drawable/spring.png
 /Users/pratisthasthapit/Downloads/SIT313-master/seasons/iOS/Seasons/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-12.4/optimized/Drawable/autumn.png
 /Users/pratisthasthapit/Downloads/SIT313-master/seasons/iOS/Seasons/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-12.4/optimized/
-/Users/pratisthasthapit/Documents/GitHub/SIT313/seasons/iOS/Seasons/bin/iPhoneSimulator/Debug/Seasons.exe
-/Users/pratisthasthapit/Documents/GitHub/SIT313/seasons/iOS/Seasons/bin/iPhoneSimulator/Debug/Seasons.pdb
-/Users/pratisthasthapit/Documents/GitHub/SIT313/seasons/iOS/Seasons/bin/iPhoneSimulator/Debug/Xamarin.Essentials.dll
-/Users/pratisthasthapit/Documents/GitHub/SIT313/seasons/iOS/Seasons/bin/iPhoneSimulator/Debug/Xamarin.Essentials.pdb
 /Users/pratisthasthapit/Documents/GitHub/SIT313/seasons/iOS/Seasons/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-12.4/ibtool/_BundleResourceWithLogicalName.items
 /Users/pratisthasthapit/Documents/GitHub/SIT313/seasons/iOS/Seasons/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-12.4/actool/_PartialAppManifest.items
 /Users/pratisthasthapit/Documents/GitHub/SIT313/seasons/iOS/Seasons/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-12.4/actool/_BundleResourceWithLogicalName.items
@@ -40,12 +36,6 @@
 /Users/pratisthasthapit/Documents/GitHub/SIT313/seasons/iOS/Seasons/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-12.4/optimized/Drawable/summer.png
 /Users/pratisthasthapit/Documents/GitHub/SIT313/seasons/iOS/Seasons/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-12.4/optimized/Drawable/spring.png
 /Users/pratisthasthapit/Documents/GitHub/SIT313/seasons/iOS/Seasons/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-12.4/optimized/Drawable/autumn.png
-/Users/pratisthasthapit/Documents/GitHub/SIT313/seasons/iOS/Seasons/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-12.4/optimized/
-/Users/pratisthasthapit/Documents/GitHub/SIT313/seasons/iOS/Seasons/obj/iPhoneSimulator/Debug/Seasons.csprojAssemblyReference.cache
-/Users/pratisthasthapit/Documents/GitHub/SIT313/seasons/iOS/Seasons/obj/iPhoneSimulator/Debug/Seasons.csproj.CoreCompileInputs.cache
-/Users/pratisthasthapit/Documents/GitHub/SIT313/seasons/iOS/Seasons/obj/iPhoneSimulator/Debug/Seasons.csproj.CopyComplete
-/Users/pratisthasthapit/Documents/GitHub/SIT313/seasons/iOS/Seasons/obj/iPhoneSimulator/Debug/Seasons.exe
-/Users/pratisthasthapit/Documents/GitHub/SIT313/seasons/iOS/Seasons/obj/iPhoneSimulator/Debug/Seasons.pdb
 /Users/pratisthasthapit/Documents/GitHub/SIT313/seasons/iOS/Seasons/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-12.4/optimized/Drawable/scarecrow.png
 /Users/pratisthasthapit/Documents/GitHub/SIT313/seasons/iOS/Seasons/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-12.4/optimized/Drawable/eastereggs.png
 /Users/pratisthasthapit/Documents/GitHub/SIT313/seasons/iOS/Seasons/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-12.4/optimized/Drawable/halloweenhouse.png
@@ -78,3 +68,12 @@
 /Users/pratisthasthapit/Documents/GitHub/SIT313/seasons/iOS/Seasons/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-12.4/optimized/Drawable/quiz.png
 /Users/pratisthasthapit/Documents/GitHub/SIT313/seasons/iOS/Seasons/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-12.4/optimized/Drawable/diy.png
 /Users/pratisthasthapit/Documents/GitHub/SIT313/seasons/iOS/Seasons/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-12.4/optimized/Drawable/easter.png
+/Users/pratisthasthapit/Documents/GitHub/SIT313/seasons/iOS/Seasons/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-12.4/optimized/
+/Users/pratisthasthapit/Documents/GitHub/SIT313/seasons/iOS/Seasons/obj/iPhoneSimulator/Debug/Seasons.csproj.CoreCompileInputs.cache
+/Users/pratisthasthapit/Documents/GitHub/SIT313/seasons/iOS/Seasons/bin/iPhoneSimulator/Debug/Seasons.exe
+/Users/pratisthasthapit/Documents/GitHub/SIT313/seasons/iOS/Seasons/bin/iPhoneSimulator/Debug/Seasons.pdb
+/Users/pratisthasthapit/Documents/GitHub/SIT313/seasons/iOS/Seasons/bin/iPhoneSimulator/Debug/Xamarin.Essentials.dll
+/Users/pratisthasthapit/Documents/GitHub/SIT313/seasons/iOS/Seasons/bin/iPhoneSimulator/Debug/Xamarin.Essentials.pdb
+/Users/pratisthasthapit/Documents/GitHub/SIT313/seasons/iOS/Seasons/obj/iPhoneSimulator/Debug/Seasons.csproj.CopyComplete
+/Users/pratisthasthapit/Documents/GitHub/SIT313/seasons/iOS/Seasons/obj/iPhoneSimulator/Debug/Seasons.exe
+/Users/pratisthasthapit/Documents/GitHub/SIT313/seasons/iOS/Seasons/obj/iPhoneSimulator/Debug/Seasons.pdb

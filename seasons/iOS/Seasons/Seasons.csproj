@@ -124,6 +124,7 @@
         <Folder Include="Resources\" />
         <Folder Include="Resources\Drawable\" />
         <Folder Include="Assets.xcassets\SplashScreen.imageset\" />
+        <Folder Include="Resources\Sound\" />
     </ItemGroup>
     <ItemGroup>
         <InterfaceDefinition Include="LaunchScreen.storyboard" />
@@ -155,6 +156,10 @@
         <Compile Include="AutumnViewController.cs" />
         <Compile Include="AutumnViewController.designer.cs">
           <DependentUpon>AutumnViewController.cs</DependentUpon>
+        </Compile>
+        <Compile Include="MainViewController.cs" />
+        <Compile Include="MainViewController.designer.cs">
+          <DependentUpon>MainViewController.cs</DependentUpon>
         </Compile>
     </ItemGroup>
     <ItemGroup>
@@ -199,6 +204,28 @@
       <BundleResource Include="Resources\Drawable\quiz.png" />
       <BundleResource Include="Resources\Drawable\diy.png" />
       <BundleResource Include="Resources\Drawable\easter.png" />
+      <BundleResource Include="Resources\Sound\easterdesc.mp3" />
+      <BundleResource Include="Resources\Sound\scarecrowdesc.mp3" />
+      <BundleResource Include="Resources\Sound\leafdesc.mp3" />
+      <BundleResource Include="Resources\Sound\christmasdesc.mp3" />
+      <BundleResource Include="Resources\Sound\winterfooddesc.mp3" />
+      <BundleResource Include="Resources\Sound\sandcastledesc.mp3" />
+      <BundleResource Include="Resources\Sound\starfishdesc.mp3" />
+      <BundleResource Include="Resources\Sound\beachballdesc.mp3" />
+      <BundleResource Include="Resources\Sound\crabdesc.mp3" />
+      <BundleResource Include="Resources\Sound\swimdesc.mp3" />
+      <BundleResource Include="Resources\Sound\shelldesc.mp3" />
+      <BundleResource Include="Resources\Sound\caterpillardesc.mp3" />
+      <BundleResource Include="Resources\Sound\pineappledesc.mp3" />
+      <BundleResource Include="Resources\Sound\beedesc.mp3" />
+      <BundleResource Include="Resources\Sound\snaildesc.mp3" />
+      <BundleResource Include="Resources\Sound\mushroomdesc.mp3" />
+      <BundleResource Include="Resources\Sound\butterflydesc.mp3" />
+      <BundleResource Include="Resources\Sound\summermusic.mp3" />
+      <BundleResource Include="Resources\Sound\autumnmusic.mp3" />
+      <BundleResource Include="Resources\Sound\wintermusic.mp3" />
+      <BundleResource Include="Resources\Sound\rainbowdesc.mp3" />
+      <BundleResource Include="Resources\Sound\springmusic.mp3" />
     </ItemGroup>
     <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

@@ -11,7 +11,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="MainViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -89,6 +89,12 @@
                         </constraints>
                     </view>
                     <navigationItem title="Seasons" id="2044" key="navigationItem"/>
+                    <connections>
+                        <outlet property="SummerBtn" destination="197" id="name-outlet-197"/>
+                        <outlet property="SpringBtn" destination="198" id="name-outlet-198"/>
+                        <outlet property="WinterBtn" destination="199" id="name-outlet-199"/>
+                        <outlet property="AutumnBtn" destination="200" id="name-outlet-200"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
